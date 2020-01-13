@@ -21,8 +21,6 @@ for row_ls in reader_obj:
         votecount = votecount + 1
     results_d[str(row_ls[2])] += 1
 
-#~~~set this value to rig the election~~~
-#results_d['Bernie S.'] = 10000000
 
 #look through results for winner, print & write results
 with open("Election Results.txt","w", newline="") as ofile_obj:
